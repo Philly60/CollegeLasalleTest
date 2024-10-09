@@ -1,0 +1,45 @@
+.footer {
+    background-color: var(--color-bg-footer);
+    padding: 5rem 0;
+}
+   
+.footerWrapper {
+    border-bottom: 1px solid var(--color-bg-secondary);
+    padding: 5rem 0;
+    gap: 5rem;
+}
+   
+.footerTitle {
+    font-size: var(--fs-lg);
+    margin-bottom: 2rem;
+}
+   
+.footerSocialList {
+    display: flex;
+    gap: 3rem;
+}
+   
+.footerSocialLink {
+    font-size: 2rem;
+    color: var(--color-white);
+    transition: var(--transition);
+}
+   
+.footerContact {
+    font-size: var(--fs-lg);
+    color: var(--color-white);
+    font-weight: var(--fw-bold);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+   
+.footerSocialLink:hover,
+.footerContact:hover {
+   color: var(--color-primary);
+}
+   
+.footerCopyright {
+    font-size: var(--fs-sm);
+    text-align: center;
+    padding-top: 3rem;
+}
